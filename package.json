@@ -1,0 +1,21 @@
+{
+  "name": "cypress-gherkin-demo",
+  "version": "1.0.0",
+  "description": "Desc",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "author",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
